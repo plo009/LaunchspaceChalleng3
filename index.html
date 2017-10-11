@@ -9,13 +9,36 @@
         <p>Hello world!</P>
         <button onclick="showAlert()">Click me!</button>
 
-        <form>
+        <form id="form">
             <input type="text" id="name" placeholder="Enter your name">
-
+            <input type="email" id="email" placeholder="Enter your email">
+            <input type="password" id="password" placeholder="Enter your password">
+            <input type="checkbox" name="entertainment" id="ent" class="subscriptions"><label for= "ent">Entertainment</label>
+            <input type="checkbox" name="shopping" id="shop" class="subscriptions"><label for= "shop">Shopping</label>        
+            <input type="checkbox" name="business" id="bus" class="subscriptions">            <label for= "bus">Business</label>
+            <input type="checkbox" name="sports" id="spo" class="subscriptions">            <label for= "spo">Sport</label>        
+            <input type="checkbox" name="technology" id="tech" class="subscriptions">            <label for= "tech">Technology</label>                
+            <!--
+            <input type="checkbox" name="business" id="bus" class="subscriptions">            <label for= "bus">Business</label>
+            <input type="checkbox" name="sport" id="spo" class="subscriptions">            <label for= "spo">Sport</label>        
+            <input type="checkbox" name="technology" id="tech" class="subscriptions">            <label for= "tech">Technology</label>
+            <input type="checkbox" name="perf" id="perf" class="subscriptions">            <label for= "perf">Performing Arts</label>
+            <input type="checkbox" name="out" id="out" class="subscriptions">            <label for= "out">Outdoors</label>
+            <input type="checkbox" name="theat" id="theat" class="subscriptions">            <label for= "theat">Theatre</label>
+            <input type="checkbox" name="exer" id="exer" class="subscriptions">            <label for= "exer">Exercise</label>
+            <input type="checkbox" name="sket" id="sket" class="subscriptions">            <label for= "sket">Sketching</label>
+            <input type="checkbox" name="night" id="night" class="subscriptions">            <label for= "night">Nightlife</label>
+            <input type="checkbox" name="dance" id="dance" class="subscriptions">            <label for= "dance">Social Dancing</label>
+            <input type="checkbox" name="girls" id="girls" class="subscriptions">            <label for= "girls">Girls night out</label>            
+            <input type="checkbox" name="boys" id="boys" class="subscriptions">            <label for= "boys">Boys night out</label>
+            <input type="checkbox" name="all" id="all" class="subscriptions">            <label for= "all">All</label>
+            -->
         </form>
         <button onclick="showAlert()">Submit</button>
         <button onclick="postRecord()">POST</button>
         <button onclick="getRecord()">GET</button>
+        <button onclick="login()">Login</button>
+        <button onclick="test()">Test</button>
         <p id="result"></p>
     </body>
 </html>
