@@ -81,7 +81,7 @@ function login() {
     xhttp.send();    
 }
 
-function toggle(source) {
+function toggleCheckBox(source) {
     var checkboxes = document.getElementsByClassName("subscriptions");
     console.log(source.checked);
 
